@@ -16,11 +16,13 @@ border: 0;
 h1,
 h2,
 h3,
+h4,
+h5,
 p,
 a,
 label,
 li {
-  color: white;
+  color: white !important;
 }
 
 h1,
@@ -38,6 +40,16 @@ nav{
 width: 1.5rem;
 }
 
+/* About us */
 #about-us{
     background-color: black;
+}
+
+/* Features */
+#features{
+  background-color: black;
+}
+
+.card-image{
+  height: 170px;
 }
